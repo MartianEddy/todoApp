@@ -1,0 +1,5 @@
+CREATE OR ALTER PROCEDURE getTodo(@id int)
+AS
+BEGIN
+SELECT * FROM todo WHERE id=@id 
+END
